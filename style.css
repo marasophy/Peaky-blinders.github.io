@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@300&family=Taviraj:wght@400;500&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'taviraj',sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    background:#1F1517;
+    color: #ffffff;
+    
+}
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 48px;  
+
+}
+
+.navigation ul{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    
+}
+
+.navigation ul li a{
+    color:#fff ;
+    font-size: 18px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid transparent;
+    transition: all .6s;
+    color:#FFF2E780;
+}
+
+.navigation ul li a:hover{
+    border-bottom: 2px solid #425265 ;
+}
+
+.navigation .pesquisar{
+    width: 22px;
+    cursor: pointer;
+    filter: invert(1)
+
+}
+
+.fa-instagram {
+    font-size: 30px;
+
+}
+
+.fa-square-facebook{
+    font-size: 30px;
+}
+ 
+ .logo{
+    font-family:Taviraj, sans-serif ;
+    font-size: 2.5rem;
+    font-weight: 300px;
+ }
+
+ .menu{
+    font-family:Taviraj, sans-serif ;
+    font-size: 2rem;
+    font-weight: 300px;
+
+ }
+
+ .main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+    color: #FFF2E780;
+ }
+.insta{
+    color: #FFF2E7;
+    font-weight:600;   
+}
+
+.face{
+    color: #FFF2E7;
+    font-weight: 600;
+    
+
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.principal{
+    margin: 15px;
+}
+
+.conteudo{
+   display: flex;
+   justify-content: center;
+}
+
+.titulo{
+    margin-bottom: 15px;
+    font-size: 20px;
+    margin: 1em 0;
+    color:#A45A49 ;
+}
+
+.subtitulo{
+
+}
+
+hr{
+    border-color: #A45A49;
+}
+
+.explore{
+
+}
+
+.paragrafo{
+    color: #fff;
+    line-height: 22px;
+    padding-bottom: 10px;
+
+
+}
+
+.btn-box .btn{
+    padding: 20 45px;
+    background: #FFF2E780;;
+    color:#fff;
+    margin-bottom: 2em;
+    border-bottom: 2px solid #fff;
+    transition: all .3s;
+    border-radius: 0.5rem;
+    padding: 0.4rem;
+    
+
+}
+
+.btn-box .btn:hover{
+    background: #2d3846;
+}
+.imagens-container{
+    max-width: 45%;
+    column-count:4;
+
+}
+
+.imagens-container >figure >img{
+    width: 100%;
+    border-radius: 0.5rem;
+    margin:10px;
+}
+
+footer{
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    background: #23181A; 
+}
+
+.footer-copy{
+    color: #FFF2E7;
+    font-family: 'taviraj';
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.footer-autor{
+    color: rgba(255, 242, 231,0.50);
+    font-family: 'taviraj';
+    font-size: 1rem;
+    font-weight: 500;
+    
+}
+
+@media(max-width 1200px) {
+    nav{
+        width: 1000px;
+    }
+}
+
+
+
